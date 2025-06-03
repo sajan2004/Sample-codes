@@ -1,3 +1,15 @@
+def circle():
+    c=int(input("Enter radius of circle"))
+    print("Area of circle is",3.14,c*c)
+
+def rect(a,b):
+    print("Area of Rectangle is",a*b)
+
+def tri():
+    b=int(input("Enter base"))
+    h=int(input("Enter height"))
+    return 0.5*b*h
+
 def sq(a):
     return a*a
     
