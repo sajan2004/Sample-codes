@@ -1,0 +1,27 @@
+def sq(a):
+    return a*a
+    
+while (True):
+    print("1.CIRCLE")
+    print("2.RECTANGLE")
+    print("3.TRIANGLE")
+    print("4.SQUARE")
+    print("5.EXIT")
+    d=int(input("Enter ur choice"))
+    match d:
+       case 1:
+             circle()
+       case 2:
+             l=int(input("Enter the length value of rect"))
+             b=int(input("Enter the breadth value of rect"))
+             rect(l,b)
+       case 3:
+             res=tri()
+             print("Ar of tri",res)
+       case 4:
+             a=int(input("Enter the side value of square"))
+             res1=sq(a)
+             print("Ar of square is",res1)
+       case 5:
+             break
+    
