@@ -1,0 +1,17 @@
+def cal(ht, up, down):
+    if up >= ht:
+        print(1)
+        return
+
+    effective_gain = up - down
+    height_after_last_climb = ht - up
+
+    if height_after_last_climb % effective_gain == 0:
+        minutes = (height_after_last_climb // effective_gain) * 2 + 1
+    else:
+        minutes = (height_after_last_climb // effective_gain) * 2 + 3
+
+    print(minutes)
+
+cal(30, 10, 5)  
+cal(21, 5, 3)   
