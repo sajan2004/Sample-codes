@@ -1,0 +1,6 @@
+def add(*args):
+       print(sum(args))
+    
+add(20,30)
+add(1,2,5)
+add(40,48)
