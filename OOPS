@@ -1,0 +1,16 @@
+class simple:
+    def set(self,a,b):
+        self.a=a
+        self.b=b
+    def dis_len(self):
+        print(self.a)
+    def dis_wid(self):
+         print(self.b)
+    def cal(self):
+        print(self.a*self.b)
+        
+r=simple()
+r.set(20,30)
+r.dis_len()
+r.dis_wid()
+r.cal()
