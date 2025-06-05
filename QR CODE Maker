@@ -1,0 +1,7 @@
+import qrcode
+text="IAM IRONHIDE"
+r=qrcode.QRCode()
+r.add_data(text)
+r.make(fit=True)
+img = r.make_image(fill_color="black", back_color="white")
+img.show()
