@@ -1,0 +1,4 @@
+file.open("vj.xls","w")
+file.write("im vj \n")
+file.close()
+print("prg is exe succssflly")
