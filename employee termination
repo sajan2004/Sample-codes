@@ -1,0 +1,7 @@
+name="ABCDEFGHIJK"
+names=[i for i in name]
+salary=[10000,20000,30000,40000,50000,60000]
+memo=[0,1,1,1,2,3,2,2,2]
+remove=[]
+remove=[names[i] for i in range(len(salary)) if salary[i]>40000]
+print(remove)
