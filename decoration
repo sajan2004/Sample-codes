@@ -1,0 +1,8 @@
+def decorator(original):
+    def wrapper():
+        print("*********************")
+    return wrapper
+@decorator
+def abc():
+    print("hello!")
+abc()
