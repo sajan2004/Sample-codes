@@ -1,0 +1,2 @@
+unique_lengths = {len(word) for word in["hi","hello","python","h1"]}
+print(unique_lengths)
