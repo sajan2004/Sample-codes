@@ -1,0 +1,20 @@
+coins = [1, 50, 20, 5, 2, 100, 200, 10,500]
+coins.sort(reverse=True)
+
+amount = int(input("Enter amount: "))
+n = amount
+result = []
+
+i = 0
+while n > 0 and i < len(coins):
+    coin = coins[i]
+
+
+    for _ in range(n // coin):
+        result.append(coin)
+        n -= coin
+
+    i += 1
+
+print("Coins used:", result)
+print("Total coins used:", len(result))
