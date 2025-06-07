@@ -1,7 +1,7 @@
 from twilio.rest import Client
-account_sid = ''
-auth_token = ''
-twilio_number = ''
+account_sid = 'sid id'
+auth_token = 'pass'
+twilio_number = '+91XXXXXXXXX'
 target_number = ['+91']
 Client = Client(account_sid, auth_token)
 for i in target_number:
