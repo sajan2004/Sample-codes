@@ -1,0 +1,7 @@
+var sym="$"
+var price=200
+var prod="oneplus"
+var taxval=12
+console.log(prod)
+var total= price+taxval
+console.log(total,sym)
