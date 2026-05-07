@@ -1,0 +1,5 @@
+let sal=50000
+let pro=20000
+let total=++sal
+let total2=++pro
+console.log(total+total2)
